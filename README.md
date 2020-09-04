@@ -1,0 +1,2 @@
+# AmongUsMuter
+AmongUsMuter
