@@ -18,7 +18,7 @@ public class AUMuter {
 
 	static VoiceChannel amongUs;
 
-	static String guildID = "134165540133535744";
+	static String guildID = Secret.guildID;
 
 	// Main method
 	public static void main(String[] args) throws Exception {
