@@ -13,7 +13,9 @@ public class KeyboardEventHandler extends GlobalKeyAdapter {
 
 	@Override
 	public void keyPressed(GlobalKeyEvent event) {
-
+		if (event.getVirtualKeyCode() != muteKey)
+			return;
+		
 		AUMuter.handleMute(mute = !mute); // Handle the keypress & mute
 	}
 
